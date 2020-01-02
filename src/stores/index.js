@@ -1,5 +1,6 @@
 import Users from './users';
 
 export default {
-    users: Users
+    usersStore: new Users(),
+
 }

@@ -1,15 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
-import { Provider } from 'mobx-react';
-import stores from './stores';
-import Main from './components/Main';
+import Users from './components/Users';
 
 function App() {
     return (
-        <Provider {...stores}>
-          <Main />
-        </Provider>
+        <div className={'App'}>
+            <Users />
+        </div>
     );
 }
 
