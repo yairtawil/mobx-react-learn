@@ -45,7 +45,7 @@ class Users {
         }
     };
 
-    @action toggleCheck = (id) => {
+    @action toggleCheck = (id) => () => {
         if (this.checked.has(id)) {
             this.checked.delete(id);
         } else {
