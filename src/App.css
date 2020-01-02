@@ -13,7 +13,15 @@
   margin: 0 10px
 }
 .users__table {
+  width: 700px;
   margin-top: 20px;
   max-height: 600px;
   overflow: auto;
+}
+.users-header__remove {
+  margin-left: auto;
+}
+
+.users-header__button-toolbar button:not(:last-child) {
+  margin-right: 10px;
 }
